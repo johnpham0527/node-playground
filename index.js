@@ -8,6 +8,7 @@ http.createServer((req, res) => {
     // <!DOCTYPE html>
     // <html>
     //     <head>
+    //         <meta charset="UTF-8">
     //         <title>Hello World!</title>
     //     </head>
     //     <body>
@@ -24,6 +25,7 @@ http.createServer((req, res) => {
         <!DOCTYPE html>
         <html>
             <head>
+                <meta charset="UTF-8">
                 <title>Hello World!</title>
             </head>
             <body>
