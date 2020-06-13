@@ -3,6 +3,7 @@ const http = require('http');
 http.createServer((req, res) => {
 
     res.writeHead(200, { 'Content-Type': 'text/html'});
+    
     res.write(`
     <!DOCTYPE html>
     <html>
@@ -11,13 +12,34 @@ http.createServer((req, res) => {
         </head>
         <body>
             <h1>Hello there!</h1>
+            <h2>Learning about servers</h2>
         </body>
     </html>
     `);
 
-    res.end(); //does this send or "execute" the response?
-    //console.dir(req);
+    // res.end();
+    
 
+    // res.end(`
+    //     <!DOCTYPE html>
+    //     <html>
+    //         <head>
+    //             <title>Hello World!</title>
+    //         </head>
+    //         <body>
+    //             <h1>Hello there!</h1>
+    //             <h2>Practicing Node's http module</h2>
+    //         </body>
+    //     </html>
+    //     `, cb => {
+    //         console.log("Finished sending back response")
+    // });
+
+    res.end(cb => {
+        console.log("Finished sending back response!!")
+    })
+    
+    //console.dir(req);
     //console.dir(res);
 
 
