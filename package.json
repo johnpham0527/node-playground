@@ -1,0 +1,24 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "description": "Explore and learn Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpham0527/node-playground.git"
+  },
+  "keywords": [
+    "Node",
+    "explore",
+    "learn"
+  ],
+  "author": "John Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpham0527/node-playground/issues"
+  },
+  "homepage": "https://github.com/johnpham0527/node-playground#readme"
+}
