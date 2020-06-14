@@ -1,6 +1,5 @@
 const http = require('http');
 const { createReadStream } = require('fs');
-const { create } = require('domain');
 
 const serveFile = (status, contentType, fileName, res) => {
     res.writeHead(status, {'Content-Type': contentType});
