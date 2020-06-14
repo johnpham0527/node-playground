@@ -40,9 +40,11 @@ http.createServer((req, res) => {
             console.log("Finished sending back response")
     });
 
-    res.end(cb => {
-        console.log("Finished sending back response!!")
-    })
+    console.log(req.url);
+
+    // res.end(cb => {
+    //     console.log("Finished sending back response!!")
+    // })
     
     //console.dir(req);
     //console.dir(res);
